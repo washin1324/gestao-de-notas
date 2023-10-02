@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gestão de Notas</title>
+</head>
+<body>
+    <h1>Gestão de Notas</h1>
+    <div class="container">
+        <h2>Adicionar Nota</h2>
+        <form id="add-form">
+            <input type="text" id="nome" placeholder="Nome do Aluno" required>
+            <input type="text" id="disciplina" placeholder="Disciplina" required>
+            <input type="number" id="nota" placeholder="Nota" required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Lista de Notas</h2>
+        <input type="text" id="search" placeholder="Pesquisar por nome do aluno">
+        <ul id="notas-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
